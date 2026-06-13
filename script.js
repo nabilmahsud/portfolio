@@ -48,8 +48,3 @@ document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 document.querySelectorAll('.hero .reveal').forEach((el, i) => {
   el.style.transitionDelay = `${i * 100}ms`;
 });
-
-document.getElementById('resumeBtn').addEventListener('click', (e) => {
-  e.preventDefault();
-  alert('Add a link to your CV PDF here, e.g. ./Nabil_CV.pdf');
-});
